@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ssmcreater:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ssmcreater</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="com.kevenwu.ssmcreater.war">
+      <element id="artifact" artifact-name="ssmcreater:war exploded" />
+    </root>
+  </artifact>
+</component>
